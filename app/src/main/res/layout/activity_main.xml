@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context="hbtbiz.hdoc.com.picandfond.MainActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/line_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="80dp"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_add"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginBottom="26dp"
+        android:text="+ 添加内容"
+        android:gravity="center"
+        android:layout_marginLeft="13sp"
+        android:layout_marginRight="13sp"
+        android:textColor="@color/button_blue"
+        android:textSize="15dp"
+        android:background="@drawable/button_blue_border"/>
+
+</RelativeLayout>

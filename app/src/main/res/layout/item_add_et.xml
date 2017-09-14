@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="13dp"
+        >
+        <hbtbiz.hdoc.com.picandfond.MyEditText
+            android:id="@+id/et_add"
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:textColor="@color/color_text_66"
+            android:paddingLeft="10dp"
+            android:background="@color/color_pub_white"
+            android:gravity="top"
+            android:hint="请填写商品描述"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            >
+            <ImageView
+                android:id="@+id/icon_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/icon_sc_spxq"
+                />
+            <ImageView
+                android:id="@+id/icon_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/icon_sy_spxq"
+                />
+            <ImageView
+                android:id="@+id/icon_down"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/icon_cr_spxq"
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

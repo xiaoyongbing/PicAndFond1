@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="color_pub_white">#ffffff</color>
+    <color name="color_text_66">#666666</color>
+    <color name="button_blue">#4F9BF5</color>
+
+    <color name="dark_grey_ea">#eaeaea</color><!--深灰色  -->
+</resources>
